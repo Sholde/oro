@@ -1,0 +1,69 @@
+
+* Exercice 1
+
+  | Noeud | Au plus tôt | Au plus tard | Marge Totale | Marge Libre |
+  |-------+-------------+--------------+--------------+-------------|
+  | A     |           0 |            0 |            0 |           0 |
+  | B     |          15 |           35 |           20 |           8 |
+  | C     |          20 |           22 |            2 |           2 |
+  | D     |          30 |           30 |            0 |           0 |
+  | E     |          35 |           35 |            0 |           0 |
+  | F     |          35 |           47 |           12 |          12 |
+  | G     |          42 |           42 |            0 |           0 |
+  | H     |          62 |           62 |            0 |           0 |
+  | I     |          66 |           66 |            0 |           0 |
+  | J     |          69 |           73 |            4 |           4 |
+  | K     |          80 |           80 |            0 |           0 |
+  | FIN   |          86 |           86 |            - |           - |
+
+  Le temps minimal du projet est de 86 jours.
+
+  _Graphe:_
+  [[./exo1.png]]
+
+* Exercice 2
+
+  | Noeud | Au plus tôt | Au plus tard | Marge Totale | Marge Libre |
+  |-------+-------------+--------------+--------------+-------------|
+  | A     |           0 |            3 |            3 |           0 |
+  | B     |           0 |            8 |            8 |           0 |
+  | C     |           5 |            5 |            0 |           0 |
+  | D     |          30 |           33 |            3 |           0 |
+  | E     |          25 |           33 |            8 |           5 |
+  | F     |          35 |           38 |            3 |           0 |
+  | G     |          25 |           25 |            0 |           0 |
+  | H     |          50 |           53 |            3 |           3 |
+  | I     |          45 |           48 |            3 |           3 |
+  | J     |          50 |           50 |            0 |           0 |
+  | K     |          55 |           55 |            0 |           0 |
+  | FIN   |          65 |           65 |            0 |           0 |
+
+  _Graphe:_
+  [[./exo2.png]]
+  
+  - On tiend le planing mais nos n'avons plus de marge pour les tâches D, E, F
+    et I.
+  - Ne change rien
+  - On tiendra avec 2 jours de retard au jours 27, et il faudra ajouter 2 jours
+    pour les tâches G, J et K.
+
+* Exercice 3
+
+  | Noeud | Au plus tôt | Au plus tard | Marge Totale | Marge Libre |
+  |-------+-------------+--------------+--------------+-------------|
+  | A     |           5 |            5 |            0 |           0 |
+  | B     |          15 |           15 |            0 |           0 |
+  | C     |           0 |            2 |            2 |           2 |
+  | D     |           0 |            0 |            0 |           0 |
+  | E     |           7 |            7 |            0 |           0 |
+  | F     |           5 |           11 |            6 |           6 |
+  | G     |           7 |           14 |            7 |           0 |
+  | H     |          10 |           17 |            7 |           7 |
+  | FIN   |          18 |           18 |            - |           - |
+
+  _Graphe:_
+  [[./exo3.png]]
+
+* Exercice 4
+
+  A faire.
